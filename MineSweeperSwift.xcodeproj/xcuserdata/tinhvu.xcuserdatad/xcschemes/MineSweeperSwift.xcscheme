@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC013BBC1CC1E70F00A10994"
+               BlueprintIdentifier = "DC013B691CC1E45E00A10994"
                BuildableName = "MineSweeperSwift.app"
                BlueprintName = "MineSweeperSwift"
                ReferencedContainer = "container:MineSweeperSwift.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC013BD01CC1E70F00A10994"
+               BlueprintIdentifier = "DC013B7D1CC1E45F00A10994"
                BuildableName = "MineSweeperSwiftTests.xctest"
                BlueprintName = "MineSweeperSwiftTests"
                ReferencedContainer = "container:MineSweeperSwift.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC013BDB1CC1E70F00A10994"
+               BlueprintIdentifier = "DC013B881CC1E45F00A10994"
                BuildableName = "MineSweeperSwiftUITests.xctest"
                BlueprintName = "MineSweeperSwiftUITests"
                ReferencedContainer = "container:MineSweeperSwift.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC013BBC1CC1E70F00A10994"
+            BlueprintIdentifier = "DC013B691CC1E45E00A10994"
             BuildableName = "MineSweeperSwift.app"
             BlueprintName = "MineSweeperSwift"
             ReferencedContainer = "container:MineSweeperSwift.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC013BBC1CC1E70F00A10994"
+            BlueprintIdentifier = "DC013B691CC1E45E00A10994"
             BuildableName = "MineSweeperSwift.app"
             BlueprintName = "MineSweeperSwift"
             ReferencedContainer = "container:MineSweeperSwift.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC013BBC1CC1E70F00A10994"
+            BlueprintIdentifier = "DC013B691CC1E45E00A10994"
             BuildableName = "MineSweeperSwift.app"
             BlueprintName = "MineSweeperSwift"
             ReferencedContainer = "container:MineSweeperSwift.xcodeproj">

@@ -7,64 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC013BC11CC1E70F00A10994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013BC01CC1E70F00A10994 /* AppDelegate.swift */; };
-		DC013BC31CC1E70F00A10994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013BC21CC1E70F00A10994 /* ViewController.swift */; };
-		DC013BC61CC1E70F00A10994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC013BC41CC1E70F00A10994 /* Main.storyboard */; };
-		DC013BC81CC1E70F00A10994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC013BC71CC1E70F00A10994 /* Assets.xcassets */; };
-		DC013BCB1CC1E70F00A10994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC013BC91CC1E70F00A10994 /* LaunchScreen.storyboard */; };
-		DC013BD61CC1E70F00A10994 /* MineSweeperSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013BD51CC1E70F00A10994 /* MineSweeperSwiftTests.swift */; };
-		DC013BE11CC1E70F00A10994 /* MineSweeperSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013BE01CC1E70F00A10994 /* MineSweeperSwiftUITests.swift */; };
+		DC013B6E1CC1E45E00A10994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013B6D1CC1E45E00A10994 /* AppDelegate.swift */; };
+		DC013B701CC1E45E00A10994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013B6F1CC1E45E00A10994 /* ViewController.swift */; };
+		DC013B731CC1E45E00A10994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC013B711CC1E45E00A10994 /* Main.storyboard */; };
+		DC013B751CC1E45E00A10994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC013B741CC1E45E00A10994 /* Assets.xcassets */; };
+		DC013B781CC1E45E00A10994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC013B761CC1E45E00A10994 /* LaunchScreen.storyboard */; };
+		DC013B831CC1E45F00A10994 /* MineSweeperSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013B821CC1E45F00A10994 /* MineSweeperSwiftTests.swift */; };
+		DC013B8E1CC1E45F00A10994 /* MineSweeperSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013B8D1CC1E45F00A10994 /* MineSweeperSwiftUITests.swift */; };
+		DC013B9E1CC1E4CE00A10994 /* empty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC013B9B1CC1E4CE00A10994 /* empty.jpg */; };
+		DC013B9F1CC1E4CE00A10994 /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013B9C1CC1E4CE00A10994 /* mine.png */; };
+		DC013BA01CC1E4CE00A10994 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013B9D1CC1E4CE00A10994 /* flag.png */; };
+		DC013BAA1CC1E52300A10994 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013BA21CC1E52300A10994 /* 4.png */; };
+		DC013BAB1CC1E52300A10994 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013BA31CC1E52300A10994 /* 8.png */; };
+		DC013BAC1CC1E52300A10994 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013BA41CC1E52300A10994 /* 1.png */; };
+		DC013BAD1CC1E52300A10994 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013BA51CC1E52300A10994 /* 7.png */; };
+		DC013BAE1CC1E52300A10994 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013BA61CC1E52300A10994 /* 6.png */; };
+		DC013BAF1CC1E52300A10994 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013BA71CC1E52300A10994 /* 5.png */; };
+		DC013BB01CC1E52300A10994 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013BA81CC1E52300A10994 /* 3.png */; };
+		DC013BB11CC1E52300A10994 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC013BA91CC1E52300A10994 /* 2.png */; };
+		DC013BB31CC1E57200A10994 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013BB21CC1E57200A10994 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC013BD21CC1E70F00A10994 /* PBXContainerItemProxy */ = {
+		DC013B7F1CC1E45F00A10994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC013BB51CC1E70F00A10994 /* Project object */;
+			containerPortal = DC013B621CC1E45E00A10994 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC013BBC1CC1E70F00A10994;
+			remoteGlobalIDString = DC013B691CC1E45E00A10994;
 			remoteInfo = MineSweeperSwift;
 		};
-		DC013BDD1CC1E70F00A10994 /* PBXContainerItemProxy */ = {
+		DC013B8A1CC1E45F00A10994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC013BB51CC1E70F00A10994 /* Project object */;
+			containerPortal = DC013B621CC1E45E00A10994 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC013BBC1CC1E70F00A10994;
+			remoteGlobalIDString = DC013B691CC1E45E00A10994;
 			remoteInfo = MineSweeperSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC013BBD1CC1E70F00A10994 /* MineSweeperSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeperSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC013BC01CC1E70F00A10994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC013BC21CC1E70F00A10994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC013BC51CC1E70F00A10994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC013BC71CC1E70F00A10994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC013BCA1CC1E70F00A10994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC013BCC1CC1E70F00A10994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC013BD11CC1E70F00A10994 /* MineSweeperSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC013BD51CC1E70F00A10994 /* MineSweeperSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperSwiftTests.swift; sourceTree = "<group>"; };
-		DC013BD71CC1E70F00A10994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC013BDC1CC1E70F00A10994 /* MineSweeperSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC013BE01CC1E70F00A10994 /* MineSweeperSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperSwiftUITests.swift; sourceTree = "<group>"; };
-		DC013BE21CC1E71000A10994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC013B6A1CC1E45E00A10994 /* MineSweeperSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeperSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC013B6D1CC1E45E00A10994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC013B6F1CC1E45E00A10994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC013B721CC1E45E00A10994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC013B741CC1E45E00A10994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC013B771CC1E45E00A10994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC013B791CC1E45E00A10994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC013B7E1CC1E45F00A10994 /* MineSweeperSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC013B821CC1E45F00A10994 /* MineSweeperSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperSwiftTests.swift; sourceTree = "<group>"; };
+		DC013B841CC1E45F00A10994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC013B891CC1E45F00A10994 /* MineSweeperSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC013B8D1CC1E45F00A10994 /* MineSweeperSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperSwiftUITests.swift; sourceTree = "<group>"; };
+		DC013B8F1CC1E45F00A10994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC013B9B1CC1E4CE00A10994 /* empty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empty.jpg; sourceTree = "<group>"; };
+		DC013B9C1CC1E4CE00A10994 /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine.png; sourceTree = "<group>"; };
+		DC013B9D1CC1E4CE00A10994 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		DC013BA21CC1E52300A10994 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		DC013BA31CC1E52300A10994 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		DC013BA41CC1E52300A10994 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DC013BA51CC1E52300A10994 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		DC013BA61CC1E52300A10994 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		DC013BA71CC1E52300A10994 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DC013BA81CC1E52300A10994 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		DC013BA91CC1E52300A10994 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DC013BB21CC1E57200A10994 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC013BBA1CC1E70F00A10994 /* Frameworks */ = {
+		DC013B671CC1E45E00A10994 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC013BCE1CC1E70F00A10994 /* Frameworks */ = {
+		DC013B7B1CC1E45F00A10994 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC013BD91CC1E70F00A10994 /* Frameworks */ = {
+		DC013B861CC1E45F00A10994 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,67 +98,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC013BB41CC1E70F00A10994 = {
+		DC013B611CC1E45E00A10994 = {
 			isa = PBXGroup;
 			children = (
-				DC013BBF1CC1E70F00A10994 /* MineSweeperSwift */,
-				DC013BD41CC1E70F00A10994 /* MineSweeperSwiftTests */,
-				DC013BDF1CC1E70F00A10994 /* MineSweeperSwiftUITests */,
-				DC013BBE1CC1E70F00A10994 /* Products */,
+				DC013B6C1CC1E45E00A10994 /* MineSweeperSwift */,
+				DC013B811CC1E45F00A10994 /* MineSweeperSwiftTests */,
+				DC013B8C1CC1E45F00A10994 /* MineSweeperSwiftUITests */,
+				DC013B6B1CC1E45E00A10994 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DC013BBE1CC1E70F00A10994 /* Products */ = {
+		DC013B6B1CC1E45E00A10994 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC013BBD1CC1E70F00A10994 /* MineSweeperSwift.app */,
-				DC013BD11CC1E70F00A10994 /* MineSweeperSwiftTests.xctest */,
-				DC013BDC1CC1E70F00A10994 /* MineSweeperSwiftUITests.xctest */,
+				DC013B6A1CC1E45E00A10994 /* MineSweeperSwift.app */,
+				DC013B7E1CC1E45F00A10994 /* MineSweeperSwiftTests.xctest */,
+				DC013B891CC1E45F00A10994 /* MineSweeperSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC013BBF1CC1E70F00A10994 /* MineSweeperSwift */ = {
+		DC013B6C1CC1E45E00A10994 /* MineSweeperSwift */ = {
 			isa = PBXGroup;
 			children = (
-				DC013BC01CC1E70F00A10994 /* AppDelegate.swift */,
-				DC013BC21CC1E70F00A10994 /* ViewController.swift */,
-				DC013BC41CC1E70F00A10994 /* Main.storyboard */,
-				DC013BC71CC1E70F00A10994 /* Assets.xcassets */,
-				DC013BC91CC1E70F00A10994 /* LaunchScreen.storyboard */,
-				DC013BCC1CC1E70F00A10994 /* Info.plist */,
+				DC013BA11CC1E51500A10994 /* img */,
+				DC013B6D1CC1E45E00A10994 /* AppDelegate.swift */,
+				DC013B6F1CC1E45E00A10994 /* ViewController.swift */,
+				DC013BB21CC1E57200A10994 /* Cell.swift */,
+				DC013B711CC1E45E00A10994 /* Main.storyboard */,
+				DC013B741CC1E45E00A10994 /* Assets.xcassets */,
+				DC013B761CC1E45E00A10994 /* LaunchScreen.storyboard */,
+				DC013B791CC1E45E00A10994 /* Info.plist */,
 			);
 			path = MineSweeperSwift;
 			sourceTree = "<group>";
 		};
-		DC013BD41CC1E70F00A10994 /* MineSweeperSwiftTests */ = {
+		DC013B811CC1E45F00A10994 /* MineSweeperSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC013BD51CC1E70F00A10994 /* MineSweeperSwiftTests.swift */,
-				DC013BD71CC1E70F00A10994 /* Info.plist */,
+				DC013B821CC1E45F00A10994 /* MineSweeperSwiftTests.swift */,
+				DC013B841CC1E45F00A10994 /* Info.plist */,
 			);
 			path = MineSweeperSwiftTests;
 			sourceTree = "<group>";
 		};
-		DC013BDF1CC1E70F00A10994 /* MineSweeperSwiftUITests */ = {
+		DC013B8C1CC1E45F00A10994 /* MineSweeperSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DC013BE01CC1E70F00A10994 /* MineSweeperSwiftUITests.swift */,
-				DC013BE21CC1E71000A10994 /* Info.plist */,
+				DC013B8D1CC1E45F00A10994 /* MineSweeperSwiftUITests.swift */,
+				DC013B8F1CC1E45F00A10994 /* Info.plist */,
 			);
 			path = MineSweeperSwiftUITests;
+			sourceTree = "<group>";
+		};
+		DC013BA11CC1E51500A10994 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				DC013B9B1CC1E4CE00A10994 /* empty.jpg */,
+				DC013B9C1CC1E4CE00A10994 /* mine.png */,
+				DC013B9D1CC1E4CE00A10994 /* flag.png */,
+				DC013BA21CC1E52300A10994 /* 4.png */,
+				DC013BA31CC1E52300A10994 /* 8.png */,
+				DC013BA41CC1E52300A10994 /* 1.png */,
+				DC013BA51CC1E52300A10994 /* 7.png */,
+				DC013BA61CC1E52300A10994 /* 6.png */,
+				DC013BA71CC1E52300A10994 /* 5.png */,
+				DC013BA81CC1E52300A10994 /* 3.png */,
+				DC013BA91CC1E52300A10994 /* 2.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC013BBC1CC1E70F00A10994 /* MineSweeperSwift */ = {
+		DC013B691CC1E45E00A10994 /* MineSweeperSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC013BE51CC1E71000A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwift" */;
+			buildConfigurationList = DC013B921CC1E45F00A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwift" */;
 			buildPhases = (
-				DC013BB91CC1E70F00A10994 /* Sources */,
-				DC013BBA1CC1E70F00A10994 /* Frameworks */,
-				DC013BBB1CC1E70F00A10994 /* Resources */,
+				DC013B661CC1E45E00A10994 /* Sources */,
+				DC013B671CC1E45E00A10994 /* Frameworks */,
+				DC013B681CC1E45E00A10994 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,69 +186,69 @@
 			);
 			name = MineSweeperSwift;
 			productName = MineSweeperSwift;
-			productReference = DC013BBD1CC1E70F00A10994 /* MineSweeperSwift.app */;
+			productReference = DC013B6A1CC1E45E00A10994 /* MineSweeperSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC013BD01CC1E70F00A10994 /* MineSweeperSwiftTests */ = {
+		DC013B7D1CC1E45F00A10994 /* MineSweeperSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC013BE81CC1E71000A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwiftTests" */;
+			buildConfigurationList = DC013B951CC1E45F00A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwiftTests" */;
 			buildPhases = (
-				DC013BCD1CC1E70F00A10994 /* Sources */,
-				DC013BCE1CC1E70F00A10994 /* Frameworks */,
-				DC013BCF1CC1E70F00A10994 /* Resources */,
+				DC013B7A1CC1E45F00A10994 /* Sources */,
+				DC013B7B1CC1E45F00A10994 /* Frameworks */,
+				DC013B7C1CC1E45F00A10994 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC013BD31CC1E70F00A10994 /* PBXTargetDependency */,
+				DC013B801CC1E45F00A10994 /* PBXTargetDependency */,
 			);
 			name = MineSweeperSwiftTests;
 			productName = MineSweeperSwiftTests;
-			productReference = DC013BD11CC1E70F00A10994 /* MineSweeperSwiftTests.xctest */;
+			productReference = DC013B7E1CC1E45F00A10994 /* MineSweeperSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DC013BDB1CC1E70F00A10994 /* MineSweeperSwiftUITests */ = {
+		DC013B881CC1E45F00A10994 /* MineSweeperSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC013BEB1CC1E71000A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwiftUITests" */;
+			buildConfigurationList = DC013B981CC1E45F00A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwiftUITests" */;
 			buildPhases = (
-				DC013BD81CC1E70F00A10994 /* Sources */,
-				DC013BD91CC1E70F00A10994 /* Frameworks */,
-				DC013BDA1CC1E70F00A10994 /* Resources */,
+				DC013B851CC1E45F00A10994 /* Sources */,
+				DC013B861CC1E45F00A10994 /* Frameworks */,
+				DC013B871CC1E45F00A10994 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC013BDE1CC1E70F00A10994 /* PBXTargetDependency */,
+				DC013B8B1CC1E45F00A10994 /* PBXTargetDependency */,
 			);
 			name = MineSweeperSwiftUITests;
 			productName = MineSweeperSwiftUITests;
-			productReference = DC013BDC1CC1E70F00A10994 /* MineSweeperSwiftUITests.xctest */;
+			productReference = DC013B891CC1E45F00A10994 /* MineSweeperSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC013BB51CC1E70F00A10994 /* Project object */ = {
+		DC013B621CC1E45E00A10994 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Tinh;
 				TargetAttributes = {
-					DC013BBC1CC1E70F00A10994 = {
+					DC013B691CC1E45E00A10994 = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					DC013BD01CC1E70F00A10994 = {
+					DC013B7D1CC1E45F00A10994 = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = DC013BBC1CC1E70F00A10994;
+						TestTargetID = DC013B691CC1E45E00A10994;
 					};
-					DC013BDB1CC1E70F00A10994 = {
+					DC013B881CC1E45F00A10994 = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = DC013BBC1CC1E70F00A10994;
+						TestTargetID = DC013B691CC1E45E00A10994;
 					};
 				};
 			};
-			buildConfigurationList = DC013BB81CC1E70F00A10994 /* Build configuration list for PBXProject "MineSweeperSwift" */;
+			buildConfigurationList = DC013B651CC1E45E00A10994 /* Build configuration list for PBXProject "MineSweeperSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,37 +256,48 @@
 				en,
 				Base,
 			);
-			mainGroup = DC013BB41CC1E70F00A10994;
-			productRefGroup = DC013BBE1CC1E70F00A10994 /* Products */;
+			mainGroup = DC013B611CC1E45E00A10994;
+			productRefGroup = DC013B6B1CC1E45E00A10994 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC013BBC1CC1E70F00A10994 /* MineSweeperSwift */,
-				DC013BD01CC1E70F00A10994 /* MineSweeperSwiftTests */,
-				DC013BDB1CC1E70F00A10994 /* MineSweeperSwiftUITests */,
+				DC013B691CC1E45E00A10994 /* MineSweeperSwift */,
+				DC013B7D1CC1E45F00A10994 /* MineSweeperSwiftTests */,
+				DC013B881CC1E45F00A10994 /* MineSweeperSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC013BBB1CC1E70F00A10994 /* Resources */ = {
+		DC013B681CC1E45E00A10994 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC013BCB1CC1E70F00A10994 /* LaunchScreen.storyboard in Resources */,
-				DC013BC81CC1E70F00A10994 /* Assets.xcassets in Resources */,
-				DC013BC61CC1E70F00A10994 /* Main.storyboard in Resources */,
+				DC013BAE1CC1E52300A10994 /* 6.png in Resources */,
+				DC013BAC1CC1E52300A10994 /* 1.png in Resources */,
+				DC013BB11CC1E52300A10994 /* 2.png in Resources */,
+				DC013BAB1CC1E52300A10994 /* 8.png in Resources */,
+				DC013B781CC1E45E00A10994 /* LaunchScreen.storyboard in Resources */,
+				DC013BAA1CC1E52300A10994 /* 4.png in Resources */,
+				DC013B9F1CC1E4CE00A10994 /* mine.png in Resources */,
+				DC013B751CC1E45E00A10994 /* Assets.xcassets in Resources */,
+				DC013B731CC1E45E00A10994 /* Main.storyboard in Resources */,
+				DC013BB01CC1E52300A10994 /* 3.png in Resources */,
+				DC013BAD1CC1E52300A10994 /* 7.png in Resources */,
+				DC013BAF1CC1E52300A10994 /* 5.png in Resources */,
+				DC013B9E1CC1E4CE00A10994 /* empty.jpg in Resources */,
+				DC013BA01CC1E4CE00A10994 /* flag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC013BCF1CC1E70F00A10994 /* Resources */ = {
+		DC013B7C1CC1E45F00A10994 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC013BDA1CC1E70F00A10994 /* Resources */ = {
+		DC013B871CC1E45F00A10994 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +307,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC013BB91CC1E70F00A10994 /* Sources */ = {
+		DC013B661CC1E45E00A10994 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC013BC31CC1E70F00A10994 /* ViewController.swift in Sources */,
-				DC013BC11CC1E70F00A10994 /* AppDelegate.swift in Sources */,
+				DC013B701CC1E45E00A10994 /* ViewController.swift in Sources */,
+				DC013B6E1CC1E45E00A10994 /* AppDelegate.swift in Sources */,
+				DC013BB31CC1E57200A10994 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC013BCD1CC1E70F00A10994 /* Sources */ = {
+		DC013B7A1CC1E45F00A10994 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC013BD61CC1E70F00A10994 /* MineSweeperSwiftTests.swift in Sources */,
+				DC013B831CC1E45F00A10994 /* MineSweeperSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC013BD81CC1E70F00A10994 /* Sources */ = {
+		DC013B851CC1E45F00A10994 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC013BE11CC1E70F00A10994 /* MineSweeperSwiftUITests.swift in Sources */,
+				DC013B8E1CC1E45F00A10994 /* MineSweeperSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC013BD31CC1E70F00A10994 /* PBXTargetDependency */ = {
+		DC013B801CC1E45F00A10994 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC013BBC1CC1E70F00A10994 /* MineSweeperSwift */;
-			targetProxy = DC013BD21CC1E70F00A10994 /* PBXContainerItemProxy */;
+			target = DC013B691CC1E45E00A10994 /* MineSweeperSwift */;
+			targetProxy = DC013B7F1CC1E45F00A10994 /* PBXContainerItemProxy */;
 		};
-		DC013BDE1CC1E70F00A10994 /* PBXTargetDependency */ = {
+		DC013B8B1CC1E45F00A10994 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC013BBC1CC1E70F00A10994 /* MineSweeperSwift */;
-			targetProxy = DC013BDD1CC1E70F00A10994 /* PBXContainerItemProxy */;
+			target = DC013B691CC1E45E00A10994 /* MineSweeperSwift */;
+			targetProxy = DC013B8A1CC1E45F00A10994 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC013BC41CC1E70F00A10994 /* Main.storyboard */ = {
+		DC013B711CC1E45E00A10994 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC013BC51CC1E70F00A10994 /* Base */,
+				DC013B721CC1E45E00A10994 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DC013BC91CC1E70F00A10994 /* LaunchScreen.storyboard */ = {
+		DC013B761CC1E45E00A10994 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC013BCA1CC1E70F00A10994 /* Base */,
+				DC013B771CC1E45E00A10994 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +368,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DC013BE31CC1E71000A10994 /* Debug */ = {
+		DC013B901CC1E45F00A10994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +413,7 @@
 			};
 			name = Debug;
 		};
-		DC013BE41CC1E71000A10994 /* Release */ = {
+		DC013B911CC1E45F00A10994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,7 +451,7 @@
 			};
 			name = Release;
 		};
-		DC013BE61CC1E71000A10994 /* Debug */ = {
+		DC013B931CC1E45F00A10994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -406,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		DC013BE71CC1E71000A10994 /* Release */ = {
+		DC013B941CC1E45F00A10994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -417,7 +473,7 @@
 			};
 			name = Release;
 		};
-		DC013BE91CC1E71000A10994 /* Debug */ = {
+		DC013B961CC1E45F00A10994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -429,7 +485,7 @@
 			};
 			name = Debug;
 		};
-		DC013BEA1CC1E71000A10994 /* Release */ = {
+		DC013B971CC1E45F00A10994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -441,7 +497,7 @@
 			};
 			name = Release;
 		};
-		DC013BEC1CC1E71000A10994 /* Debug */ = {
+		DC013B991CC1E45F00A10994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MineSweeperSwiftUITests/Info.plist;
@@ -453,7 +509,7 @@
 			};
 			name = Debug;
 		};
-		DC013BED1CC1E71000A10994 /* Release */ = {
+		DC013B9A1CC1E45F00A10994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MineSweeperSwiftUITests/Info.plist;
@@ -468,40 +524,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC013BB81CC1E70F00A10994 /* Build configuration list for PBXProject "MineSweeperSwift" */ = {
+		DC013B651CC1E45E00A10994 /* Build configuration list for PBXProject "MineSweeperSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC013BE31CC1E71000A10994 /* Debug */,
-				DC013BE41CC1E71000A10994 /* Release */,
+				DC013B901CC1E45F00A10994 /* Debug */,
+				DC013B911CC1E45F00A10994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC013BE51CC1E71000A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwift" */ = {
+		DC013B921CC1E45F00A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC013BE61CC1E71000A10994 /* Debug */,
-				DC013BE71CC1E71000A10994 /* Release */,
+				DC013B931CC1E45F00A10994 /* Debug */,
+				DC013B941CC1E45F00A10994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DC013BE81CC1E71000A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwiftTests" */ = {
+		DC013B951CC1E45F00A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC013BE91CC1E71000A10994 /* Debug */,
-				DC013BEA1CC1E71000A10994 /* Release */,
+				DC013B961CC1E45F00A10994 /* Debug */,
+				DC013B971CC1E45F00A10994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DC013BEB1CC1E71000A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwiftUITests" */ = {
+		DC013B981CC1E45F00A10994 /* Build configuration list for PBXNativeTarget "MineSweeperSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC013BEC1CC1E71000A10994 /* Debug */,
-				DC013BED1CC1E71000A10994 /* Release */,
+				DC013B991CC1E45F00A10994 /* Debug */,
+				DC013B9A1CC1E45F00A10994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC013BB51CC1E70F00A10994 /* Project object */;
+	rootObject = DC013B621CC1E45E00A10994 /* Project object */;
 }
